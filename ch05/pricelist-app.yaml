@@ -9,8 +9,8 @@ spec:
   project: default
   source:
     path: ch05/manifests/
-    repoURL: https://github.com/sabre1041/argocd-up-and-running-book
-    targetRevision: main
+    repoURL: https://github.com/arcemon/ArgoCD-Lab
+    targetRevision: master
   destination:
     namespace: pricelist
     name: in-cluster
